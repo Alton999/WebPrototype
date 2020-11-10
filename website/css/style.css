@@ -3,7 +3,7 @@
 }
 
 body {
-	font-family: "Varela Round", sans-serif;
+	font-family: "Roboto", sans-serif;
 	line-height: 1.6;
 }
 a {
@@ -21,7 +21,7 @@ a {
 	font-size: 1.6em;
 	margin-top: 1.5rem;
 	padding-bottom: 10px;
-	/* font-weight: 900; */
+	font-weight: 900;
 }
 
 .main-nav a {
@@ -38,19 +38,33 @@ a {
 
 /* Main content styling */
 .content-container {
-	margin-top: -25px;
+	margin-top: -3%;
 }
-.content-headers {
-	margin-left: 0.8rem;
-	font-size: 1.4rem;
-}
-
 .content1 {
 	background-image: url("../assets/kalen-emsley-Bkci_8qcdvQ-unsplash.jpg");
-	height: 80vh;
+	height: 500px;
+	background-color: #cccccc;
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
+}
+.section1-text {
+	position: absolute;
+	color: #2c3e50;
+	width: 80%;
+	background-color: rgba(236, 240, 241, 0.7);
+	margin: 2rem 0 0 1.5rem;
+	padding: 1rem;
+	border-radius: 5%;
+	border: 5px solid #95a5a6;
+}
+.content-headers {
+	font-size: 1.2rem;
+	font-weight: 700;
+}
+
+.content-text {
+	margin-top: 0.5rem;
 }
 
 /* .clearfix::after {
